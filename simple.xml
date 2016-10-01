@@ -1,9 +1,9 @@
 <!--
-theme name:		simplebigart
+theme name:		simplebigart-ii
 version:		1.0
-Description:	Based on Simple 1.4 theme by nils bonenberger (nilsbyte@nilsbyte.de) and simplelight by recalbox community with "bichromatic pads" backgrounds
-author:			Ewzzy
-website:		ewzzy.com
+Description:	Tweaks to Ewzzy's simplebigart theme, based on Simple 1.4 theme by nils bonenberger (nilsbyte@nilsbyte.de) and simplelight by recalbox community with "bichromatic pads" backgrounds
+author:			Eric Bailey
+website:		https://github.com/ericwbailey/es-theme-simplebigart-ii
 license:		creative commons CC-BY-NC-SA
 -->
 
@@ -11,7 +11,7 @@ license:		creative commons CC-BY-NC-SA
     <formatVersion>4</formatVersion>
 
 	<view name="system">
-	
+
 		<image name="background" extra="true">
 			<size>0 1</size>
 			<pos>0.5 0.5</pos>
@@ -20,7 +20,7 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 
     <view name="basic, detailed">
-		
+
 		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
 			<color>393a3b</color>
 			<forceUppercase>1</forceUppercase>
@@ -28,7 +28,7 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.03</fontSize>
 			<size>0.12 0.04</size>
 		</text>
-		
+
 		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite">
 			<color>393a3b</color>
 			<forceUppercase>1</forceUppercase>
@@ -43,7 +43,7 @@ license:		creative commons CC-BY-NC-SA
 			<fontPath>./art/invisible.ttf</fontPath>
 			<fontSize>0.3</fontSize>
 		</text>
-		
+
 		<datetime name="md_releasedate, md_lastplayed">
 			<color>393a3b</color>
 			<forceUppercase>1</forceUppercase>
@@ -51,7 +51,7 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.03</fontSize>
 			<size>0.14 0.04</size>
 		</datetime>
-		
+
 		<image name="header" extra="true">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
@@ -64,13 +64,13 @@ license:		creative commons CC-BY-NC-SA
 			<origin>0 1</origin>
 			<size>1 0.065</size>
 			<path>./art/footer.jpg</path>
-		</image>	
-		
+		</image>
+
 		<image name="background">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-		</image> 
+		</image>
 
                 <image name="backgroundfilter" extra="true">
                         <pos>0 0</pos>
@@ -89,7 +89,7 @@ license:		creative commons CC-BY-NC-SA
 			<forceUppercase>1</forceUppercase>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 		</textlist>
-		
+
 	</view>
 
 	<view name="basic">
@@ -102,7 +102,7 @@ license:		creative commons CC-BY-NC-SA
                         <size>1 1</size>
                         <maxSize>1 1</maxSize>
                         <origin>0 0</origin>
-                </image>-->		
+                </image>-->
 	</view>
-	
+
 </theme>
